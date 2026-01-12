@@ -7,6 +7,11 @@
 네이버 뉴스 검색 페이지에서 특정 키워드를 검색하고,
 검색 결과 중 첫 번째 뉴스 제목을 가져오는 간단한 자동화 스크립트입니다.
 
+
+## 아키텍쳐 설계
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/34d94e66-6ec3-4cd3-aed8-4c100dffbaab" />
+
+
 ## 사용 기술
 
 * Python
