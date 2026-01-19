@@ -32,3 +32,13 @@
 ## 실행 결과
 ![img.png](img.png)
 ![img_1.png](img_1.png)
+
+
+## 실행 환경
+- OS: Windows 10 / 11
+- Python: 3.10
+- 테스트 유형: GUI 기반 자동화 테스트
+- 사용 기술: Airtest, Appium, PyAutoGUI
+
+※ 본 프로젝트는 Windows GUI 및 디바이스 의존 테스트를 포함하고 있어
+Linux/macOS 환경의 CI에서는 실행되지 않습니다.

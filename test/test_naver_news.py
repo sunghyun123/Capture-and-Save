@@ -4,6 +4,9 @@ from src.naver_news import NaverNewsScraper
 import csv, json, os
 import time
 
+if os.getenv("CI") == "true":
+    pytest.skip("CI 환경에서는 GUI/브라우저 테스트를 실행하지 않습니다.", allow_module_level=True)
+
 @pytest.fixture(scope="function")
 def scraper():
     s = NaverNewsScraper(headless=True, timeout=15)
