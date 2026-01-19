@@ -131,3 +131,4 @@ if __name__ == "__main__":
         print(f"[INFO] 스크린샷 저장 위치: {result['screenshot']}")
     finally:
         scraper.quit()
+

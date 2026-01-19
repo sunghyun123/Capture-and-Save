@@ -34,3 +34,6 @@
 
 * Headless 모드 실행 가능
 
+## 실행 결과
+![img.png](img.png)
+![img_1.png](img_1.png)
